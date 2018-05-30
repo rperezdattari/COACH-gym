@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def cartesian2(*arrays):
     mesh = np.meshgrid(*arrays)  # standard numpy meshgrid
     dim = len(mesh)  # number of dimensions

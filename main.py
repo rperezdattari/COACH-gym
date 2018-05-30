@@ -1,7 +1,6 @@
 import gym
 import time
 from linear_RBFs import LinearRBFs
-import numpy as np
 
 # Set configuration parameters
 render = True
