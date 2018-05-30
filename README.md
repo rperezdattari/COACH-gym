@@ -18,7 +18,8 @@ Then, the files in the 'gym' folder of this repository should be replaced/added 
 
 To run the code just type in the main repository folder:
 
-```python main.py
+```python 
+python main.py
 ```
 
 
