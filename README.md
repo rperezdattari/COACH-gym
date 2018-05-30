@@ -22,7 +22,7 @@ To run the code just type in the terminal inside the folder `COACH-gym`:
 ```python 
 python main.py
 ```
-Along with the rendered environment, a small black window should appear when running the code. To be able to give feedback to the agent, this window must be selected/clicked with the computed mouse. 
+Along with the rendered environment, a small black window should appear when running the code. To be able to give feedback to the agent, this window must be selected/clicked with the computer mouse. 
 
 ## Comments
 
