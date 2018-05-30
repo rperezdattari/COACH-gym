@@ -23,7 +23,7 @@ python main.py
 ```
 ## Comments
 
-The COACH algorithm is designed to work with problems of continuous actions spaces. Given that the Cartpole environment of gym was made to work discret action spaces, a modified continuous version of this environment is used.
+The COACH algorithm is designed to work with problems of continuous actions spaces. Given that the Cartpole environment of gym was designed to work with discret action spaces, a modified continuous version of this environment is used.
 
 
 
