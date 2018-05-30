@@ -17,7 +17,7 @@ Then, the files in the `gym` folder of this repository should be replaced/added 
 
 ## Usage
 
-To run the code just type the following in the folder `COACH-gym`:
+To run the code just type in the terminal inside the folder `COACH-gym`:
 
 ```python 
 python main.py
@@ -27,6 +27,8 @@ Along with the rendered environment, a small black window should appear when run
 ## Comments
 
 The COACH algorithm is designed to work with problems of continuous actions spaces. Given that the Cartpole environment of gym was designed to work with discret action spaces, a modified continuous version of this environment is used.
+
+This code has been tested in Ubuntu 16.04 and python >= 3.5.
 
 
 
