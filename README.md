@@ -9,7 +9,7 @@ This code is based on the following publications:
 
 To use the code, it is necessary to first install the gym toolkit: https://github.com/openai/gym
 
-Then, the files in the 'gym' folder of this repository should be replaced/added in the installed gym folder on your PC.
+Then, the files in the `gym` folder of this repository should be replaced/added in the installed gym folder on your PC.
 
 ### Requirements
 * NumPy
