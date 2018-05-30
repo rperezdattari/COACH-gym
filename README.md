@@ -13,6 +13,7 @@ Then, the files in the `gym` folder of this repository should be replaced/added 
 
 ### Requirements
 * NumPy
+* PyGame
 
 ## Usage
 
@@ -21,6 +22,8 @@ To run the code just type the following in the folder `COACH-gym`:
 ```python 
 python main.py
 ```
+Along with the rendered environment, a small black window should appear when running the code. To be able to give feedback to the agent, this window must be selected/clicked with the computed mouse. 
+
 ## Comments
 
 The COACH algorithm is designed to work with problems of continuous actions spaces. Given that the Cartpole environment of gym was designed to work with discret action spaces, a modified continuous version of this environment is used.
