@@ -16,7 +16,7 @@ Then, the files in the `gym` folder of this repository should be replaced/added 
 
 ## Usage
 
-To run the code just type in the main repository folder:
+To run the code just type the following in the folder `COACH-gym`:
 
 ```python 
 python main.py
