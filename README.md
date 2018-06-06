@@ -6,6 +6,7 @@ This code is based on the following publications:
 2. [An Interactive Framework for Learning Continuous Actions Policies Based on Corrective Feedback](https://link.springer.com/article/10.1007/s10846-018-0839-z)
 
 Link to video:
+
 [![Paper Video](https://img.youtube.com/vi/T3NMRA0JPX8/0.jpg)](https://www.youtube.com/watch?v=T3NMRA0JPX8)
 
 ## Installation
