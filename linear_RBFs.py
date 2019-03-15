@@ -50,6 +50,7 @@ class LinearRBFs:
 
         total_membership_mult = np.sum(membership_mult)
         self.membership_mult_norm = membership_mult / total_membership_mult
+        self.rul = np.concatenate((self.rul[:, 1:15], np.transpose(np.asmatrix(self.membership_mult_norm))), 1)
 
         action = np.array([np.sum(self.membership_mult_norm * np.reshape(self.wP, self.state_list_len))])
         action = np.clip(action, -1, 1)
@@ -57,7 +58,6 @@ class LinearRBFs:
         return action
 
     def update(self, h, observation):
-        self.rul = np.concatenate((self.rul[:, 1:15], np.transpose(np.asmatrix(self.membership_mult_norm))), 1)
         ct = np.concatenate((np.ones((1, 10)), np.zeros((1, 5))), 1)/10
         credit_feat = np.matmul(self.rul, np.transpose(ct))
         H = np.transpose(self.wH) * credit_feat
